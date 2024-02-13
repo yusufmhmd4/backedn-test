@@ -1,0 +1,21 @@
+POST http://localhost:3000/register 
+Content-Type: application/json
+
+{
+    "fullName":"Mohammad Yusuf Baba",
+    "phoneNumber":7093664698,
+    "email":"yusufindian8@gmail.com",
+    "password":"Yusuf@0418",
+    "companyName":"Educase",
+    "agencyMember":false
+}
+
+###
+
+POST http://localhost:3000/login 
+Content-Type: application/json 
+
+{
+    "email":"yusufindian8@gmail.com",
+    "password":"Yusuf@0418"
+}
