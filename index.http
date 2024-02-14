@@ -19,3 +19,7 @@ Content-Type: application/json
     "email":"yusufindian8@gmail.com",
     "password":"Yusuf@0418"
 }
+
+###
+
+GET http://localhost:3000/name

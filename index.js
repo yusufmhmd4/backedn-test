@@ -77,3 +77,7 @@ app.post("/login",async(request,response)=>{
         }
     }
 })
+
+app.get("/name",async(request,response)=>{
+    response.send("Yusuf Baba")
+})
